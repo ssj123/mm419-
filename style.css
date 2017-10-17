@@ -1,0 +1,379 @@
+body,html{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: '微软雅黑';
+	color: #373b4e;
+	position: absolute;
+	    left: 0;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    min-width: 240px;
+	
+}
+html{
+	font-size: 10px;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img{
+	width: auto;
+	height: 100%;
+	border: 0;
+}
+.box{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.ani{
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+   }
+
+.panel {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.row{
+	position: relative;
+	background-color: #ff1d75;
+	width: 100%;
+	height: 37.875rem;
+}
+.content{
+	position: relative;
+    width: 100%;
+    max-width: 1196px;
+    height: 100%;
+    margin: 0 auto;
+    z-index: 2;
+}
+.row .content nav{
+	position: absolute;
+    top: 1.4375rem;
+    left: 5.525rem;
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+.fosi175{
+	font-size: 1.75rem;
+}
+
+.row .left{
+	width: 30%;
+	position: absolute;
+	left: 0;
+	top: 9.375rem;
+	color: #fff;
+	z-index: 2;
+}
+.tss1{
+	font-size: 3.75rem;
+	font-weight: bold;
+}
+.tss2{
+    font-size: 1.125rem;
+}
+.ts2{
+	height: 4.75rem;
+	align-items: center;
+	display: flex;
+}
+.t1{
+	font-size: 1.125rem;
+}
+.t2{
+	font-size: 2.375rem;
+	color: #ff0;
+}
+.ts3{
+	height: 2.5rem;
+	line-height: 100%;
+	font-size: 2.375rem;
+}
+.p1{
+	position: absolute;
+	left: -1.5625rem;
+	top: 12.5rem;
+}
+.row .left .p1 img{
+	width: 4.375rem;
+	height: 4.375rem;
+}
+.p2{
+	position: absolute;
+	left: .6875rem;
+	top: 18.375rem;
+}
+.row .left .p2 img{
+	width: 11.9375rem;
+	height: 3rem;
+}
+.p3{
+	position: absolute;
+	left: 16rem;
+	top: 16.4375rem;
+	color: #fff;
+	text-align: center;
+}
+.p3 img{
+	width: 7.0625rem;
+	height: 6.9375rem;
+}
+
+.right{
+	position: absolute;
+	bottom: -2px;
+	left: 60%;
+}
+.right img{
+	width: 44.5625rem;
+	height: 31.3125rem;
+
+}
+
+/*第二版*/
+.row1{
+	position: relative;
+	background-color: #fff;
+	height: 43.125rem;
+}
+
+.row1 .td1{
+	margin: 2.375rem auto;
+	text-align: center;
+	width: 25.625rem;
+}
+.row1 .td1 .t1{
+	display: block;
+	height: 2.375rem;
+	line-height: 2.375rem;
+	color: #ff1d75;
+	font-size: 1.75rem;
+	border-bottom: 2px solid #ff1d75;
+}
+.row1 .td1 .tt2{
+	display: block;
+	height: 2.375rem;
+	line-height: 2.375rem;
+	font-size: 1.75rem;
+}
+.row1 .td1 .t3{
+	display: block;
+	height: 2.375rem;
+	line-height: 2.375rem;
+	font-size: 1.75rem;
+}
+.row1 .td2{
+	position: absolute;
+	bottom: 3.125rem;
+	right: 67%;
+}
+.row1 .td2 img{
+	width: 31.625rem;
+	height: 34.4375rem;
+}
+.row1 .td3{
+	position: absolute;
+	bottom: 3.125rem;
+	left: 67%;
+}
+.row1 .td3 img{
+	width: 35.25rem;
+	height: 27.8125rem;
+}
+
+
+/*第三版*/
+.row2{
+	position: relative;
+	background-color: #ff1d75;
+	height: 38.125rem;
+}
+.row2 .mov3{
+	position: absolute;
+	bottom: -2px;
+	right: 48%;
+}
+.row2 .mov3 img{
+	width: 55.9375rem;
+	height: 36.75rem;
+}
+.row2 .mov3-1{
+	position: absolute;
+	top: 12rem;
+	width: 23.9375rem;
+	left: 88%;
+}
+.row2 .mov3-1 .td1{
+	height: 4.5rem;
+	line-height: 4.5rem;
+	color: #fff;
+	font-size: 3.125rem;
+}
+.row2 .mov3-1 .td2{
+	display: inline-block;
+	height: 3.25rem;
+	line-height: 3.25rem;
+	color: #fff;
+	font-size: 1.75rem;
+	border-bottom: 2px solid #fff;
+}
+
+/*第四版*/
+.row3{
+	background-color: #fff;
+    height: 38rem;
+}
+.row3 .mov4{
+	position: absolute;
+	top: 3.25rem;
+	bottom: 0;
+	left: -8.4375rem;
+}
+.row3 .mov4 .tb1{
+	display: inline-block;
+	height: 4.5rem;
+	line-height: 4.5rem;
+	color: #373b4e;
+	font-size: 3.125rem;
+}
+.row3 .mov4 .tb2{
+	display: inline-block;
+	height: 2.625rem;
+	line-height: 2.625rem;
+	color: #373b4e;
+	font-size: 2rem;
+	border-bottom: 2px solid #ff1d75;
+}
+.row3 .mov4 .tb3{
+	position: absolute;
+	left: -.9375rem;
+	top: 4.0625rem;
+}
+.row3 .mov4 .tb4{
+	display: inline-block;
+	position: relative;
+	top: -.625rem;
+	left: .3125rem;
+}
+.row3 .mov4 .tb5{
+	position: absolute;
+	bottom: 0;
+	left: -6.5625rem;
+}
+.row3 .mov4 .tb5 img{
+	width: 44.125rem;
+	height: 27.75rem;
+}
+.row3 .mov4-1{
+	position: absolute;
+	bottom: 1.875rem;
+	right: -12.25rem;
+}
+.row3 .mov4-1 img{
+	width: 27.625rem;
+	height: 32.875rem;
+}
+
+/*第五版*/
+.row4{
+	position: relative;
+	background-color: #ff1d75;
+	height: 26.875rem;
+}
+.row4 .ta1{
+	padding: 3.125rem 0;
+	height: 3.125rem;
+	line-height: 3.125rem;
+	color: #fff;
+	text-align: center;
+	font-size: 2rem;
+}
+.row4 .ta2{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 3.8125rem;
+	text-align: center;
+	color: #fff;
+	font-size: 1.75rem;
+}
+.row4 .ta2 .tb{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.row4 .ta2 .tb img{
+	width: 8.125rem;
+	height: 8.125rem;
+}
+
+/*第六版*/
+.row5{
+	position: relative;
+	background-color: #fff;
+	height: 33.75rem;
+}
+.row5 .ta{
+	position: absolute;
+	top: .625rem;
+	right: 0;
+	bottom: .625rem;
+	left: 0;
+	color: #ff1d75;
+	font-size: 2.375rem;
+	text-align: center;
+	display: flex;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.row5 .ta .ta2 img{
+	width: 15.625rem;
+	height: 15.625rem;
+}
+.row5 .ta .ta3 img{
+	width: 11.9375rem;
+	height: 3rem;
+}
+
+/*第七版 尾部*/
+.row6{
+	position: relative;
+	display: flex;
+	background-color: #dedede;
+	padding: 2.5rem;
+	text-align: center;
+	-ms-flex-direction: row;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
