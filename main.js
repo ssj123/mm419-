@@ -23,7 +23,7 @@ function mov1() {
 	setTimeout(mov2,3000);
 }
 function mov2() {
-	mov2a.style.right = '47%';
+	mov2a.style.right = '48.5%';
 	mov2b.style.left = '47%';
 	setTimeout(mov3,3000);
 }
@@ -33,8 +33,8 @@ function mov3() {
 	setTimeout(mov4,3000);
 }
 function mov4() {
-	mov4a.style.left = '9rem';
-	mov4b.style.right = '6rem';
+	mov4a.style.left = '9.8125rem';
+	mov4b.style.right = '0';
 }
 
 document.onclick = function () {
