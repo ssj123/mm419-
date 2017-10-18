@@ -1,4 +1,4 @@
-body,html{
+﻿body,html{
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
@@ -337,7 +337,7 @@ img{
 .row5{
 	position: relative;
 	background-color: #fff;
-	height: 36.75rem;
+	height: 40.75rem;
 }
 .row5 .ta{
 	position: absolute;
