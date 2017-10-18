@@ -33,8 +33,8 @@ function mov3() {
 	setTimeout(mov4,3000);
 }
 function mov4() {
-	mov4a.style.left = '9.8125rem';
-	mov4b.style.right = '5rem';
+	mov4a.style.left = '23rem';
+	mov4b.style.right = '12rem';
 }
 
 document.onclick = function () {

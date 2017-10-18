@@ -348,11 +348,11 @@ img{
 	color: #ff1d75;
 	font-size: 2.375rem;
 	text-align: center;
-	display: flex;
+/*	display: flex;
 	-ms-flex-direction: column;
 	-webkit-flex-direction: column;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-around;*/
 }
 .row5 .ta div{
 	margin: 1rem 0;
