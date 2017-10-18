@@ -34,7 +34,7 @@ function mov3() {
 }
 function mov4() {
 	mov4a.style.left = '9.8125rem';
-	mov4b.style.right = '0';
+	mov4b.style.right = '5rem';
 }
 
 document.onclick = function () {

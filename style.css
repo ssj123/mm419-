@@ -337,7 +337,7 @@ img{
 .row5{
 	position: relative;
 	background-color: #fff;
-	height: 33.75rem;
+	height: 36.75rem;
 }
 .row5 .ta{
 	position: absolute;
@@ -354,6 +354,12 @@ img{
 	flex-direction: column;
 	justify-content: space-around;
 }
+.row5 .ta div{
+	margin: 1rem 0;
+}
+.row5 .ta .tb2{
+	margin: 0;
+}
 .row5 .ta .ta2 img{
 	width: 15.625rem;
 	height: 15.625rem;
@@ -362,6 +368,7 @@ img{
 	width: 11.9375rem;
 	height: 3rem;
 }
+
 
 /*第七版 尾部*/
 .row6{
